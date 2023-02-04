@@ -1,0 +1,13 @@
+@controllerを使用し、restAPIの作成をする
+DBからデータを受け取り、json形式でreactのpageに送信する
+
+1.今回は、DBの代わりに、別javaクラスでデータを配列で格納する
+2.データ格納クラスから受け取り、json形式に変更するため、@requestmappingを使用
+3.形式変更した値を指定のurlに送るため@restcontrollerを使用
+
+    mvc2　modelみたいにbeanクラスとservletクラスを作成しなくて良いのか
+    urlにデータを送れていれば成功
+        確認方法がわからない
+    
+    
+
